@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 10px 20px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 5px 20px;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 3px;
+}
+
+.btn1 {
+    background-color: rgb(35, 85, 143);
+    color: white;
+    margin-right: 10px;
+}
+
+.btn2 {
+    background-color: rgb(163, 198, 243);
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.nav2 {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px;
+}
+
+.generos {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: rgb(170, 207, 255);
+    padding: 20px;
+}
+
+.gen {
+    display: flex;
+    align-items: center;
+}
+
+
+.generos a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.textlogo {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.registros {
+    display: flex;
+    align-items: center;
+}
+
+.seclibros {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
