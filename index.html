@@ -19,7 +19,7 @@
                 <img src="Imágenes/logo.png" alt="">
             </div>
             <div class="registros">
-                <button class="btn btn1">Inicio de Sesión</button>
+                <button onclick="sesion()" class="btn btn1">Inicio de Sesión</button>
                 <button class="btn btn2">Registro</button>
             </div>
 
@@ -45,11 +45,11 @@
         </nav>
 
         <div class="generos">
-            <a href="">Ficción</a>
-            <a href="">Históricos</a>
-            <a href="">Tecnología</a>
-            <a href="">Autoayuda</a>
-            <a href="">Poesía</a>
+            <h4 class="gen2" onclick="fiction()" href="">Ficción</h4>
+            <h4 class="gen2" onclick="historic()" href="">Históricos</h4>
+            <h4 class="gen2" onclick="tec()" href="">Tecnología</h4>
+            <h4 class="gen2" onclick="autoayuda()" href="">Autoayuda</h4>
+            <h4 class="gen2" onclick="poesia()" href="">Poesía</h4>
         </div>
 
         <section class="seclibros">
@@ -59,21 +59,21 @@
                     <img src="Imágenes/cien.jpg" alt="">
                     <h4 class="namelibro">Cien Años en Soledad</h4>
                     <h4 class="autor">Gabriel García Marquez</h4>
-                    <button class="rentar">Rentar</button>
+                    <button onclick="rentar(this)" class="rentar">Rentar</button>
                 </div>
     
                 <div class="rayuela book">
                     <img src="Imágenes/rayuela.jpg" alt="">
                     <h4 class="namelibro">Rayuela</h4>
                     <h4 class="autor">Julio Cortázar</h4>
-                    <button class="rentar">Rentar</button>
+                    <button onclick="rentar(this)" class="rentar">Rentar</button>
                 </div>
     
                 <div class="travesurasde book">
                     <img src="Imágenes/travesuras.jpg" alt="">
                     <h4 class="namelibro">Travesuras de la Niña Mala</h4>
                     <h4 class="autor">Mario Vargas Llosa</h4>
-                    <button class="rentar">Rentar</button>
+                    <button onclick="rentar(this)" class="rentar">Rentar</button>
                 </div>
             </div>
             
