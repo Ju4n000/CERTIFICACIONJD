@@ -20,7 +20,6 @@
     padding: 5px 20px;
     border: 3px solid black;
     box-shadow: 2px 2px 2px black;
-    border-radius: 3px;
 }
 
 .btn1 {
@@ -63,6 +62,7 @@
 .generos a {
     text-decoration: none;
     color: black;
+    font-weight: 600;
 }
 
 .logo {
@@ -84,5 +84,39 @@
     width: 1200px;
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.libros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.book img{
+    width: 280px;
+}
+
+.rentar {
+    margin-top: 10px;
+    padding: 0px 20px;
+    font-size: 14px;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(119, 178, 255);
+}
+
+#textallbooks {
+    margin: 20px;
+}
+
+.foot {
+    text-align: center;
+    font-size: 12px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(19, 77, 131);
+    color: white;
     padding: 20px;
 }
